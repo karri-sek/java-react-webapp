@@ -68,4 +68,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+Redux flow chart:
 ![alt text](https://github.com/karri-sek/java-react-webapp/blob/master/public/images/reduxFlowChart.png?raw=true)
+
+Provider:
+![alt text](https://github.com/karri-sek/java-react-webapp/blob/master/public/images/provider.svg?raw=true)
