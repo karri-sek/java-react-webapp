@@ -3,6 +3,7 @@ const initialState = {
     articles:[]
 }
 const rootReducer = (state=initialState, action) => {
+    console.log("action ", action)
     if(action.type === ADD_ARTICLE){
         return Object.assign({}, state,{
             articles: state.articles.concat(action.payload)
