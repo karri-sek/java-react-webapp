@@ -11,7 +11,12 @@ const getData = () => {
             });
     }
 }
+
+const getDataFromSaga = () => {
+    return { type: "DATA_SAGA_REQUESTED" }  
+}
 export {
     addArticle,
-    getData
+    getData,
+    getDataFromSaga
 }
